@@ -14,7 +14,7 @@ import jakarta.servlet.http.HttpServletRequest;
 
 @Component
 public class JwtUtils {
-    private final String jwtSecret = "a3f4b57e61c47f4d51ed5e071b30e18d929e13544c2f7455936481922d5f7f3b";
+    private final String jwtSecret = "a5bca9d9f14f05ea54821886dd3e7a1cf9c6205c6c14b4fe6d6a6e2056d8e715";
     private final int jwtExpirationMs = 86400000;
 
     public String getEmailFromJwtToken(String token) {
